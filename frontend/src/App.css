@@ -1,0 +1,155 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4f46e5;
+  color: white;
+  padding: 15px 30px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Home Container */
+.home-container {
+  max-width: 750px;
+  margin: 40px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Quote Card */
+.quote-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+
+  /* Fixed Card Size */
+  height: 280px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  overflow-y: auto;
+}
+
+/* Quote Text */
+.quote-text {
+  font-size: 30px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Author */
+.quote-author {
+  color: gray;
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.button-group button {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* New Quote Button */
+.button-group button:nth-child(1) {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* Copy Button */
+.button-group button:nth-child(2) {
+  background-color: #198754;
+  color: white;
+}
+
+/* Favorite Button */
+.button-group button:nth-child(3) {
+  background-color: #ffc107;
+  color: black;
+}
+
+/* Read Button */
+.button-group button:nth-child(4) {
+  background-color: #0dcaf0;
+  color: black;
+}
+
+/* Horizontal Line */
+.share-line {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 25px 0;
+}
+
+/* Social Buttons */
+.share-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.share-buttons button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* WhatsApp */
+.whatsapp {
+  background: #25d366;
+}
+
+/* Twitter/X */
+.twitter {
+  background: #000;
+}
+
+/* LinkedIn */
+.linkedin {
+  background: #0a66c2;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  padding: 30px;
+}
